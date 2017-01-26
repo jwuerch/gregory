@@ -25860,12 +25860,14 @@ a.social-icon.si-colored {
   line-height: 19px;
   font-weight: 700;
   margin-bottom: 4px;
+  text-transform: uppercase;
   color: #BC69A2; }
 
 .phone-slug .new-hotline {
   font-size: 17px;
   font-weight: 700;
-  line-height: 25px; }
+  line-height: 25px;
+  text-transform: uppercase; }
   @media (max-width: 767px) {
     .phone-slug .new-hotline {
       font-family: "Open Sans", sans-serif;
@@ -26401,6 +26403,66 @@ h4.modal-title {
   #team-carousel img {
     margin: 0 auto;
     margin-bottom: 20px; } }
+
+#reviews {
+  background: url("../images/reviews.jpg");
+  padding: 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #reviews .col {
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 24px; }
+  #reviews #oc-portfolio2 {
+    display: flex; }
+    #reviews #oc-portfolio2 .icon-star3 {
+      color: #F5E82E;
+      font-size: 44px; }
+    #reviews #oc-portfolio2 .col {
+      padding: 20px 20px;
+      text-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      height: 600px; }
+    #reviews #oc-portfolio2 h6 {
+      color: #555D8A;
+      font-weight: 700;
+      font-size: 24px;
+      text-align: center; }
+    #reviews #oc-portfolio2 .star-wrap {
+      text-align: center; }
+    #reviews #oc-portfolio2 .text {
+      text-align: left;
+      padding: 0 20px;
+      color: #646464;
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 400;
+      margin-bottom: 10px; }
+    #reviews #oc-portfolio2 .author {
+      text-align: right;
+      padding: 0 30px;
+      font-weight: 700;
+      font-size: 24px;
+      color: #BC69A2;
+      letter-spacing: -0.45px; }
+  #reviews .owl-prev, #reviews .owl-next {
+    opacity: 1 !important;
+    height: 50px;
+    width: 50px;
+    background: #83B341;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700; }
+    #reviews .owl-prev:hover, #reviews .owl-next:hover {
+      background: #79A53C !important; }
+  #reviews .owl-prev {
+    left: -18px; }
+  #reviews .owl-next {
+    right: -18px; }
+  #reviews .button {
+    margin-top: 60px; }
 
 body {
   font-family: "Raleway", sans-serif; }

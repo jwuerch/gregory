@@ -1,0 +1,74 @@
+#reviews {
+  background:url('../images/reviews.jpg');
+  padding:60px 0;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  .col {
+    background: rgba(255,255,255,.93);
+    border-radius: 24px;
+  }
+  #oc-portfolio2 {
+    display:flex;
+    .icon-star3 {
+      color:#F5E82E;
+      font-size:44px;
+    }
+    .col {
+      padding:20px 20px;
+      text-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+      height:600px;
+    }
+    h6 {
+      color:#555D8A;
+      font-weight:700;
+      font-size:24px;
+      text-align:center;
+    }
+    .star-wrap {
+      text-align:center;
+    }
+    .text {
+      text-align:left;
+      padding:0 20px;
+      color:#646464;
+      font-size:22px;
+      line-height:28px;
+      font-weight:400;
+      margin-bottom:10px;
+    }
+    .author {
+      text-align:right;
+      padding:0 30px;
+      font-weight:700;
+      font-size: 24px;
+      color: #BC69A2;
+      letter-spacing: -0.45px;
+    }
+  }
+  .owl-prev, .owl-next {
+    opacity:1 !important;
+    height:50px;
+    width:50px;
+    background:#83B341;
+    border:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFF;
+    font-size:30px;
+    font-weight:700;
+    &:hover {
+      background:#79A53C !important;
+    }
+  }
+  .owl-prev {
+    left:-18px;
+  }
+  .owl-next {
+    right:-18px;
+  }
+  .button {
+    margin-top:60px;
+  }
+}
