@@ -1,5 +1,7 @@
 // Canvas Dependencies //
 
+$raleway: 'Raleway', sans-serif;
+
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
 @import "dependencies/swiper.scss";
@@ -12,6 +14,7 @@
 @import "dependencies/contact-modal.scss";
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
 
 
 // End Canvas Dependencies //
@@ -19,8 +22,6 @@
 
 // Variables to define first //
 
-$primary-font: 'Lato', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
 $third-font: 'Roboto Condensed', sans-serif;
 $button-color: orange;
 $button-hover:gray;
@@ -28,7 +29,7 @@ $button-hover:gray;
 // CSS //
 
 body {
-  font-family:$primary-font;
+  font-family:$raleway;
 }
 
 h1 {
@@ -37,6 +38,7 @@ h1 {
 
 h2 {
   font-size:48px;
+  font-family:$raleway;
 }
 
 h3 {
@@ -57,6 +59,7 @@ h6 {
 
 p {
   font-size:18px;
+  font-family:$raleway;
 }
 
 .button {

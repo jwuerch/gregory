@@ -1,0 +1,33 @@
+#slider, .swiper-container, .swiper-wrapper, .swiper-slide {
+  max-height:800px;
+}
+
+#slide-1 {
+  background-position:0% 30%;
+  p {
+    color:#656565;
+  }
+  .h-1, .h-2 {
+    font-size:109px;
+    font-weight:700;
+  }
+  .h-1 {
+    color:#4F5988;
+    margin-bottom:0;
+  }
+  .h-2 {
+    color:#BC69A2;
+    margin-left:75px;
+  }
+  @media (max-width:1200px) {
+    .h-1, .h-2 {
+      font-size:80px;
+    }
+    p {
+      padding-right:50px;
+    }
+    .h-2 {
+      margin-left:50px;
+    }
+  }
+}

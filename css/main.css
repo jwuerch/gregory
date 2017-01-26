@@ -25751,7 +25751,7 @@ Copyright (c) 2014 Daniel Eden
 .navbar li > a {
   color: #838383;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
   @media (max-width: 1250px) {
@@ -26153,14 +26153,39 @@ h4.modal-title {
   height: 100%;
   border-bottom: 5px solid #FFF; }
 
+#slider, .swiper-container, .swiper-wrapper, .swiper-slide {
+  max-height: 800px; }
+
+#slide-1 {
+  background-position: 0% 30%; }
+  #slide-1 p {
+    color: #656565; }
+  #slide-1 .h-1, #slide-1 .h-2 {
+    font-size: 109px;
+    font-weight: 700; }
+  #slide-1 .h-1 {
+    color: #4F5988;
+    margin-bottom: 0; }
+  #slide-1 .h-2 {
+    color: #BC69A2;
+    margin-left: 75px; }
+  @media (max-width: 1200px) {
+    #slide-1 .h-1, #slide-1 .h-2 {
+      font-size: 80px; }
+    #slide-1 p {
+      padding-right: 50px; }
+    #slide-1 .h-2 {
+      margin-left: 50px; } }
+
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 h1 {
   font-size: 64px; }
 
 h2 {
-  font-size: 48px; }
+  font-size: 48px;
+  font-family: "Raleway", sans-serif; }
 
 h3 {
   font-size: 36px; }
@@ -26175,7 +26200,8 @@ h6 {
   font-size: 20px; }
 
 p {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: "Raleway", sans-serif; }
 
 .button {
   background: orange;
