@@ -25774,7 +25774,8 @@ Copyright (c) 2014 Daniel Eden
   color: #96BB5D; }
 
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-  height: 100px; }
+  height: 100px;
+  background: #FFF; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 38px;
@@ -26169,13 +26170,70 @@ h4.modal-title {
   #slide-1 .h-2 {
     color: #BC69A2;
     margin-left: 75px; }
+  #slide-1 .button {
+    margin-top: 30px; }
   @media (max-width: 1200px) {
     #slide-1 .h-1, #slide-1 .h-2 {
       font-size: 80px; }
     #slide-1 p {
-      padding-right: 50px; }
+      padding-right: 200px; }
     #slide-1 .h-2 {
       margin-left: 50px; } }
+  @media (max-width: 1200px) {
+    #slide-1 {
+      background-position: 100% 100%; } }
+
+#slide-2 {
+  background-position: 0% 25%; }
+  #slide-2 .h-1 {
+    color: #4F5988;
+    font-size: 86.7px;
+    font-weight: 400;
+    margin-bottom: 0; }
+  #slide-2 .h-2 {
+    color: #BC69A2;
+    font-size: 63.75px;
+    font-weight: 700; }
+  #slide-2 .icon-star3 {
+    color: #F5E82E;
+    font-size: 44px; }
+  #slide-2 .star-set {
+    text-align: center; }
+  #slide-2 p {
+    font-size: 20px;
+    color: #656565;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.79);
+    border-radius: 16px; }
+  #slide-2 .button {
+    margin-top: 50px;
+    background-image: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 18px; }
+  @media (max-width: 1200px) {
+    #slide-2 {
+      background-position: 75% 100%; } }
+
+#slide-3 {
+  background-position: 0% 25%; }
+  #slide-3 .h-1 {
+    font-size: 92px;
+    color: #BC69A2;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  #slide-3 .h-2 {
+    font-size: 44px;
+    color: #4F5988;
+    font-weight: 400;
+    margin-bottom: 50px; }
+  #slide-3 .h-3 {
+    color: #71706E;
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 700; }
+  @media (max-width: 1200px) {
+    #slide-3 {
+      background-position: 60% 25%; } }
 
 body {
   font-family: "Raleway", sans-serif; }
@@ -26204,8 +26262,13 @@ p {
   font-family: "Raleway", sans-serif; }
 
 .button {
-  background: orange;
-  padding-top: 2px; }
+  background-image: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 18px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  border: none; }
 
 .button:hover {
   background: gray; }

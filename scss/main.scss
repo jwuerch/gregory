@@ -1,6 +1,7 @@
 // Canvas Dependencies //
 
 $raleway: 'Raleway', sans-serif;
+$lato: 'Lato', sans-serif;
 
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
@@ -63,8 +64,13 @@ p {
 }
 
 .button {
-  background:$button-color;
-  padding-top:2px;
+  background-image: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
+  box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.12);
+  border-radius: 18px;
+  color:#FFF;
+  text-transform:uppercase;
+  font-family:$lato;
+  border:none;
 }
 .button:hover {
   background:$button-hover
