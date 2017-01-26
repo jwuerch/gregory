@@ -1,0 +1,86 @@
+#no-insurance {
+  background:url('../images/insurance-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding:100px 0;
+  padding-bottom:175px;
+  h2 {
+    font-size:60px;
+    margin-bottom:-10px;
+    color:#BC69A2;
+    font-weight:700;
+
+  }
+  h3 {
+    color:#4F5988;
+    font-size:38px;
+    font-weight:700;
+
+  }
+  h4 {
+    font-family: $montserrat;
+    font-weight:400;
+    font-size: 37px;
+    color: #71706E;
+    letter-spacing: -0.24px;
+    line-height: 39px;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  p {
+    font-family: $opensans;
+    margin-bottom:15px;
+    font-size: 20px;
+    color: #393937;
+    letter-spacing: -0.28px;
+    line-height: 18px;
+  }
+  .button {
+    margin-top:50px;
+    padding-left:55px;
+    padding-right:55px;
+  }
+  @media (max-width:1200px) {
+    background-position:100% 100%;
+    h3 {
+      font-size:34px;
+    }
+    h4 {
+      font-size:28px;
+      margin-top:30px;
+    }
+    p {
+      font-size:17px;
+    }
+    .button {
+      margin-top:35px;
+    }
+  }
+  @media (max-width:991px) {
+    background:none;
+    text-align:center;
+    padding-bottom:0;
+  }
+  @media (max-width:500px) {
+    h2 {
+      font-size:40px;
+    }
+    h3 {
+      font-size:22px;
+    }
+    h4 {
+      font-size:20px;
+      line-height:25px;
+    }
+    p {
+      font-size:16px;
+    }
+    .button {
+      margin-top:20px;
+    }
+  }
+
+}
+.no-insurance-bottom img {
+  width:100%;
+}
