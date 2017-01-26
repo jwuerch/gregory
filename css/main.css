@@ -25963,6 +25963,13 @@ a.social-icon.si-colored {
 .phone-slug a:hover {
   text-decoration: none; }
 
+#phone-slug-2 {
+  padding-bottom: 25px; }
+  @media (max-width: 991px) {
+    #phone-slug-2 .button {
+      width: 300px;
+      font-size: 16px; } }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;
@@ -26117,8 +26124,8 @@ h4.modal-title {
     background: #FFF;
     border: 3px solid #8FC843; }
   #specials .box-3 .price-box {
-    color: #586CCE;
-    background: #85B04B; }
+    color: #FFF;
+    background: #586CCE; }
   #specials .box-3 .title-box {
     background: #606EAD; }
   #specials .box-3 .text-box {

@@ -126,3 +126,14 @@ $phone-color: #FFF;
 .phone-slug a:hover {
   text-decoration:none;
 }
+
+#phone-slug-2 {
+  padding-bottom:25px;
+  @media (max-width:991px) {
+    .button {
+      width:300px;
+      font-size:16px;
+    }
+  }
+
+}

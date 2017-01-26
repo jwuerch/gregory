@@ -42,8 +42,8 @@
         }
     });
 
-    var price_width = $('.price-box').outerWidth();
-    var title_width = $('.title-box').outerWidth();
-    var text_width = $('.text-box').outerWidth();
-    $('.label').width(price_width + title_width + text_width - 20);
+    // var price_width = $('.price-box').outerWidth();
+    // var title_width = $('.title-box').outerWidth();
+    // var text_width = $('.text-box').outerWidth();
+    // $('.label').width(price_width + title_width + text_width - 20);
 })(jQuery);
