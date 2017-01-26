@@ -26542,6 +26542,101 @@ h4.modal-title {
 .no-insurance-bottom img {
   width: 100%; }
 
+#services {
+  padding: 60px 0; }
+  #services h2 {
+    font-size: 48px;
+    color: #BC69A2;
+    margin-bottom: 0; }
+    @media (max-width: 500px) {
+      #services h2 {
+        font-size: 32px; } }
+  #services h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #393937;
+    letter-spacing: -0.28px;
+    font-weight: 400;
+    margin-bottom: 50px; }
+    @media (max-width: 500px) {
+      #services h6 {
+        font-size: 16px; } }
+  #services h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4F5988;
+    letter-spacing: -0.28px;
+    text-align: center;
+    margin-top: 10px; }
+  #services img {
+    border-radius: 16px; }
+  @media (max-width: 480px) {
+    #services {
+      padding: 40px 0; } }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  color: #4F5988; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin-bottom: 10px; }
+
+#tour {
+  background: #F1A6DC;
+  padding: 60px 0;
+  background: rgba(241, 166, 220, 0.09); }
+  #tour h2 {
+    color: #BC69A2;
+    font-size: 48px;
+    margin-bottom: 0; }
+  #tour p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #393937;
+    line-height: 26px; }
+  #tour .tour-1 {
+    margin: 10px 0 30px 0; }
+  #tour img {
+    border-radius: 16px; }
+  #tour .oc-item img {
+    max-height: 169.250px; }
+  #tour #oc-portfolio3 .owl-next, #tour #oc-portfolio3 .owl-prev {
+    opacity: 1 !important;
+    background: #83B341;
+    color: #FFF;
+    font-size: 26px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #tour #oc-portfolio3 .owl-next:hover, #tour #oc-portfolio3 .owl-prev:hover {
+      background: #6F9837 !important; }
+  #tour #oc-portfolio3 .owl-prev {
+    left: -18px; }
+  #tour #oc-portfolio3 .owl-next {
+    right: -18px; }
+
 body {
   font-family: "Raleway", sans-serif; }
 

@@ -1,0 +1,51 @@
+#tour {
+  background:#F1A6DC;
+  padding:60px 0;
+
+  background: rgba(241, 166, 220, .09);
+  h2 {
+    color:#BC69A2;
+    font-size:48px;
+    margin-bottom:0;
+  }
+  p {
+    font-family: $opensans;
+    font-size: 20px;
+    text-align:center;
+    color: #393937;
+    line-height:26px;
+  }
+  .tour-1 {
+    margin:10px 0 30px 0;
+  }
+  img {
+    border-radius:16px;
+  }
+  .oc-item img {
+    max-height:169.250px;
+  }
+  #oc-portfolio3 {
+    .owl-next, .owl-prev {
+      opacity:1 !important;
+      background:#83B341;
+      color:#FFF;
+      font-size:26px;
+      width:40px;
+      height:40px;
+      border:none;
+      display:flex;
+      align-items: center;
+      justify-content:center;
+      &:hover {
+        background:#6F9837 !important;
+      }
+
+    }
+    .owl-prev {
+      left:-18px;
+    }
+    .owl-next {
+      right:-18px;
+    }
+  }
+}

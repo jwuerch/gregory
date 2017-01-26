@@ -1,0 +1,38 @@
+#services {
+  padding:60px 0;
+  h2 {
+
+    font-size: 48px;
+    color: #BC69A2;
+    margin-bottom:0;
+    @media (max-width:500px) {
+      font-size:32px;
+    }
+  }
+  h6 {
+    font-family: $opensans;
+    font-size: 20px;
+    color: #393937;
+    letter-spacing: -0.28px;
+    font-weight:400;
+    margin-bottom:50px;
+    @media (max-width:500px) {
+      font-size:16px;
+    }
+  }
+  h4 {
+    font-family: $opensans;
+    font-weight:700;
+    font-size: 20px;
+    color: #4F5988;
+    letter-spacing: -0.28px;
+    text-align:center;
+    margin-top:10px;
+  }
+  img {
+    border-radius:16px;
+  }
+  @media (max-width:480px) {
+    padding:40px 0;
+  }
+}
