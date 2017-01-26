@@ -6572,7 +6572,10 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	padding-left:45px;
 	padding-right:45px;
 	font-size:20px;
-	background: #8E0BD6;
+	transition:0;
+	background-image:radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
+
+	background: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
 	border: 2px solid #FFFFFF;
 	box-shadow: 0px 15px 45px 0px rgba(0,0,0,0.15);
 	border-radius: 12px;

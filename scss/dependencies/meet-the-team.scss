@@ -1,0 +1,56 @@
+#meet-the-team {
+  padding:60px 0;
+  background:url('../images/bio.jpg');
+  background-repeat:no-repeat;
+  background-position-x:-30%;
+  h2 {
+    color:#4F5988;
+    margin-bottom:60px;
+  }
+  p {
+    font-size:18px;
+    color:#7B7B7B;
+    font-weight:400;
+  }
+  h3 {
+    color:#BC69A2;
+    font-weight:700;
+    font-size:42px;
+  }
+  @media (max-width:1550px) {
+    background-position-x:-50%;
+  }
+  @media (max-width:1430px) {
+    background-position-x:-70%;
+  }
+  @media (max-width:1350px) {
+    background-position-x:-90%;
+  }
+  @media (max-width:1290px) {
+    background-position-x:-130%;
+  }
+  @media (max-width:1225px) {
+    background-position-x:-150%;
+  }
+  @media (max-width:1200px) {
+    background:none;
+    padding-bottom:0;
+  }
+  @media (max-width:767px) {
+    h2 {
+      font-size:40px;
+    }
+    h3 {
+      font-size:34px;
+      margin-bottom:10px;
+    }
+  }
+  @media (max-width:480px) {
+    h2 {
+      font-size:34px;
+    }
+    h3 {
+      font-size:22px;
+    }
+  }
+}

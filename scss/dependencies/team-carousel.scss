@@ -1,0 +1,91 @@
+#team-carousel {
+  .container {
+    background: #FFFAEB;
+    border-radius: 38px 38px 38px 38px;
+    padding:20px;
+  }
+  padding:50px 0;
+  h4 {
+    font-size: 36px;
+    font-weight:400;
+    color: #757575;
+    width:100%;
+    line-height:35px;
+    margin-bottom:5px;
+  }
+  h6 {
+    font-weight:400;
+    width:100%;
+    margin-bottom:10px;
+    font-family: $lato;
+    font-size: 28px;
+    color: #BC69A2;
+
+  }
+  img {
+    width:240px;
+    border-radius:3px;
+  }
+  .iportfolio {
+    .col-md-9 {
+      text-align:left !important;
+      p {
+        line-height:23px;
+        font-weight:400;
+        font-size: 18px;
+        color: #535353;
+        margin-bottom:10px;
+      }
+    }
+
+  }
+  p {
+    width:100%;
+    font-size:18px;
+    color:#535353;
+    font-family:$lato;
+    font-weight:400;
+
+  }
+  .owl-next, .owl-prev {
+    color:#FFF;
+    font-size:24px;
+    background:#83B341;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    align-self:center;
+    border:none;
+    opacity:1 !important;
+    &:hover {
+      background:#75A03A !important;
+
+    }
+  }
+  .owl-prev {
+    left:-36px;
+  }
+  .owl-next {
+    right:-36px;
+  }
+
+
+}
+
+.owl-carousel:hover .owl-nav .owl-next {
+  right:-48px;
+}
+
+
+.owl-carousel:hover .owl-nav .owl-prev {
+  left:-48px;
+}
+#team-carousel {
+  @media (max-width:991px) {
+    img {
+      margin:0 auto;
+
+      margin-bottom:20px;
+    }
+  }
+}

@@ -2,6 +2,14 @@
 
 $raleway: 'Raleway', sans-serif;
 $lato: 'Lato', sans-serif;
+$opensans: 'Open Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+section h2 {
+  font-size:48px;
+  font-weight:700;
+
+}
 
 @import "dependencies/bootstrap.scss";
 @import "dependencies/style.scss";
@@ -16,6 +24,8 @@ $lato: 'Lato', sans-serif;
 @import "dependencies/specials.scss";
 @import "dependencies/location-section.scss";
 @import "dependencies/slides.scss";
+@import "dependencies/meet-the-team.scss";
+@import "dependencies/team-carousel.scss";
 
 
 // End Canvas Dependencies //
@@ -64,7 +74,7 @@ p {
 }
 
 .button {
-  background-image: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
+  background: radial-gradient(50% 100%, #FAA822 12%, #FA6D22 100%);
   box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.12);
   border-radius: 18px;
   color:#FFF;
@@ -73,7 +83,8 @@ p {
   border:none;
 }
 .button:hover {
-  background:$button-hover
+  background:#D25C1C !important;
+  transition:0s !important;
 }
 .content-wrap {
   padding:0;
