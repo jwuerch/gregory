@@ -26141,7 +26141,7 @@ h4.modal-title {
       max-height: 1200px;
       height: 1200px; } }
   #contact #google-map {
-    height: 700px; }
+    height: 800px; }
     @media (max-width: 991px) {
       #contact #google-map {
         height: 400px; } }
@@ -26373,9 +26373,15 @@ h4.modal-title {
   background: url("../images/bio.jpg");
   background-repeat: no-repeat;
   background-position-x: -30%; }
+  @media (max-width: 500px) {
+    #meet-the-team {
+      padding: 20px 0; } }
   #meet-the-team h2 {
     color: #4F5988;
     margin-bottom: 60px; }
+    @media (max-width: 500px) {
+      #meet-the-team h2 {
+        margin-bottom: 30px; } }
   #meet-the-team p {
     font-size: 18px;
     color: #7B7B7B;

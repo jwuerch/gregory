@@ -3,9 +3,15 @@
   background:url('../images/bio.jpg');
   background-repeat:no-repeat;
   background-position-x:-30%;
+  @media (max-width:500px) {
+    padding:20px 0;
+  }
   h2 {
     color:#4F5988;
     margin-bottom:60px;
+    @media (max-width:500px) {
+      margin-bottom:30px;
+    }
   }
   p {
     font-size:18px;
