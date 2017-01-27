@@ -28,11 +28,19 @@
     letter-spacing: -0.28px;
     text-align:center;
     margin-top:10px;
+    &:hover {
+      text-decoration:underline;
+      cursor:pointer;
+    }
   }
   img {
     border-radius:16px;
+    &:hover {
+      cursor:pointer;
+    }
   }
   @media (max-width:480px) {
     padding:40px 0;
   }
+
 }
