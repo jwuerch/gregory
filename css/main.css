@@ -26418,6 +26418,11 @@ h4.modal-title {
     #slide-3 {
       background-position: 60% 25%; } }
 
+.icon-angle-down {
+  color: transparent;
+  top: -50px;
+  position: relative; }
+
 #meet-the-team {
   padding: 60px 0;
   background: url("../images/bio.jpg");
