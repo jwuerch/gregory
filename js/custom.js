@@ -46,4 +46,20 @@
     // var title_width = $('.title-box').outerWidth();
     // var text_width = $('.text-box').outerWidth();
     // $('.label').width(price_width + title_width + text_width - 20);
+
+    if ($(window).width() < 1600) {
+        $('.col-1-team').removeClass('col-lg-7').removeClass('col-lg-push-5').addClass('col-lg-6').addClass('col-lg-push-6');
+
+    } else {
+        $('.col-1-team').removeClass('col-lg-6').removeClass('col-lg-push-6').addClass('col-lg-7').addClass('col-lg-push-5');
+    }
+
+    $(window).resize(function() {
+        if ($(window).width() < 1600) {
+            $('.col-1-team').removeClass('col-lg-7').removeClass('col-lg-push-5').addClass('col-lg-6').addClass('col-lg-push-6');
+
+        } else {
+            $('.col-1-team').removeClass('col-lg-6').removeClass('col-lg-push-6').addClass('col-lg-7').addClass('col-lg-push-5');
+        }
+    })
 })(jQuery);

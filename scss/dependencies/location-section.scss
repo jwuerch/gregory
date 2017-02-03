@@ -1,11 +1,4 @@
 #contact {
-  @media (max-width:991px){
-    max-height:1200px;
-    height:1200px;
-  }
-
-
-
 
   #google-map {
     height:800px;
@@ -13,6 +6,19 @@
       height:400px;
     }
   }
+}
+
+#tour {
+  @media (max-width:991px){
+
+  }
+  padding-bottom:0;
+  #slider2 {
+    padding-bottom:40px;
+  }
+
+
+
   background: rgba(255,255,255,0.5);
   a {
     &:hover {
@@ -22,7 +28,6 @@
   .contact-box {
     padding:20px 0;
     width: 100%;
-    height: 300px;
     background: #FFF;
     z-index:500;
     position:absolute;
