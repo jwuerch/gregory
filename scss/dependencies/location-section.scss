@@ -9,6 +9,7 @@
 }
 
 #tour {
+  padding-bottom:30px;
   @media (max-width:991px){
 
   }
@@ -25,6 +26,9 @@
       text-decoration:none;
     }
   }
+
+}
+#contact {
   .contact-box {
     padding:20px 0;
     width: 100%;
@@ -172,7 +176,6 @@
     }
   }
 }
-
 .contact-below {
   display:flex;
   justify-content:center;
@@ -202,4 +205,8 @@
       display:initial;
     }
   }
+}
+
+#google-map {
+  max-height:500px;
 }

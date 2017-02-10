@@ -26062,7 +26062,9 @@ h4.modal-title {
     @media (max-width: 767px) {
       #specials .price-box {
         position: absolute;
-        margin-top: 95px; } }
+        margin-top: 95px;
+        margin-left: 0;
+        margin-right: 0; } }
   #specials .title-box {
     margin: 25px 0;
     padding: 0 20px 0 20px;
@@ -26192,123 +26194,125 @@ h4.modal-title {
       height: 400px; } }
 
 #tour {
+  padding-bottom: 30px;
   padding-bottom: 0;
   background: rgba(255, 255, 255, 0.5); }
   #tour #slider2 {
     padding-bottom: 40px; }
   #tour a:hover {
     text-decoration: none; }
-  #tour .contact-box {
-    padding: 20px 0;
-    width: 100%;
-    background: #FFF;
-    z-index: 500;
-    position: absolute;
-    bottom: 0; }
+
+#contact .contact-box {
+  padding: 20px 0;
+  width: 100%;
+  background: #FFF;
+  z-index: 500;
+  position: absolute;
+  bottom: 0; }
+  @media (max-width: 991px) {
+    #contact .contact-box {
+      position: relative; } }
+  #contact .contact-box .row {
+    display: flex;
+    align-items: center; }
     @media (max-width: 991px) {
-      #tour .contact-box {
-        position: relative; } }
-    #tour .contact-box .row {
+      #contact .contact-box .row {
+        display: initial; } }
+    #contact .contact-box .row .col-md-4 {
       display: flex;
-      align-items: center; }
-      @media (max-width: 991px) {
-        #tour .contact-box .row {
-          display: initial; } }
-      #tour .contact-box .row .col-md-4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap; }
-        #tour .contact-box .row .col-md-4 img {
-          max-width: 250px; }
-        #tour .contact-box .row .col-md-4 p {
-          width: 100%;
-          text-align: center;
-          margin-bottom: 0;
-          line-height: 25px; }
-      #tour .contact-box .row .col-1 img {
-        margin-bottom: 30px; }
-      #tour .contact-box .row .col-1 .p-2 {
-        margin-bottom: 10px; }
-      #tour .contact-box .row .col-1 .p-3 {
-        font-family: "Lato", sans-serif;
-        font-size: 16px;
-        color: #3B5C0D;
-        letter-spacing: 0;
-        text-decoration: underline; }
-        @media (max-width: 991px) {
-          #tour .contact-box .row .col-1 .p-3 {
-            margin-bottom: 30px; } }
-        #tour .contact-box .row .col-1 .p-3 a {
-          color: #3B5C0D; }
-      #tour .contact-box .row .col-2 h6 {
-        font-size: 17px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #BC69A2;
-        margin-bottom: 10px; }
-      #tour .contact-box .row .col-2 .p-1 a {
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        font-size: 42px;
-        color: #4F5988; }
-        @media (max-width: 400px) {
-          #tour .contact-box .row .col-2 .p-1 a {
-            font-size: 28px; } }
-      #tour .contact-box .row .col-2 .p-1 {
-        margin-bottom: 30px; }
-      #tour .contact-box .row .col-2 .p-2 {
-        font-size: 20px;
-        color: #444444;
-        letter-spacing: 0;
-        line-height: 48px;
-        margin-bottom: 20px; }
-        @media (max-width: 400px) {
-          #tour .contact-box .row .col-2 .p-2 {
-            font-size: 16px;
-            margin-top: -20px; } }
-        #tour .contact-box .row .col-2 .p-2 a {
-          font-family: "Lato", sans-serif;
-          color: #444444;
-          font-weight: 700; }
-      #tour .contact-box .row .col-2 .button {
-        max-width: 300px;
-        font-size: 18px;
-        display: flex;
-        justify-content: center; }
-        @media (max-width: 991px) {
-          #tour .contact-box .row .col-2 .button {
-            margin-bottom: 30px; } }
-        @media (max-width: 400px) {
-          #tour .contact-box .row .col-2 .button {
-            font-size: 16px;
-            max-width: 275px; } }
-      #tour .contact-box .row .col-3 h6 {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+      #contact .contact-box .row .col-md-4 img {
+        max-width: 250px; }
+      #contact .contact-box .row .col-md-4 p {
         width: 100%;
         text-align: center;
-        font-size: 28px;
-        color: #575757;
+        margin-bottom: 0;
         line-height: 25px; }
+    #contact .contact-box .row .col-1 img {
+      margin-bottom: 30px; }
+    #contact .contact-box .row .col-1 .p-2 {
+      margin-bottom: 10px; }
+    #contact .contact-box .row .col-1 .p-3 {
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: #3B5C0D;
+      letter-spacing: 0;
+      text-decoration: underline; }
+      @media (max-width: 991px) {
+        #contact .contact-box .row .col-1 .p-3 {
+          margin-bottom: 30px; } }
+      #contact .contact-box .row .col-1 .p-3 a {
+        color: #3B5C0D; }
+    #contact .contact-box .row .col-2 h6 {
+      font-size: 17px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #BC69A2;
+      margin-bottom: 10px; }
+    #contact .contact-box .row .col-2 .p-1 a {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-size: 42px;
+      color: #4F5988; }
+      @media (max-width: 400px) {
+        #contact .contact-box .row .col-2 .p-1 a {
+          font-size: 28px; } }
+    #contact .contact-box .row .col-2 .p-1 {
+      margin-bottom: 30px; }
+    #contact .contact-box .row .col-2 .p-2 {
+      font-size: 20px;
+      color: #444444;
+      letter-spacing: 0;
+      line-height: 48px;
+      margin-bottom: 20px; }
+      @media (max-width: 400px) {
+        #contact .contact-box .row .col-2 .p-2 {
+          font-size: 16px;
+          margin-top: -20px; } }
+      #contact .contact-box .row .col-2 .p-2 a {
+        font-family: "Lato", sans-serif;
+        color: #444444;
+        font-weight: 700; }
+    #contact .contact-box .row .col-2 .button {
+      max-width: 300px;
+      font-size: 18px;
+      display: flex;
+      justify-content: center; }
+      @media (max-width: 991px) {
+        #contact .contact-box .row .col-2 .button {
+          margin-bottom: 30px; } }
+      @media (max-width: 400px) {
+        #contact .contact-box .row .col-2 .button {
+          font-size: 16px;
+          max-width: 275px; } }
+    #contact .contact-box .row .col-3 h6 {
+      width: 100%;
+      text-align: center;
+      font-size: 28px;
+      color: #575757;
+      line-height: 25px; }
+      @media (max-width: 400px) {
+        #contact .contact-box .row .col-3 h6 {
+          margin-top: 30px; } }
+    #contact .contact-box .row .col-3 .hour-box {
+      display: flex;
+      justify-content: space-between; }
+      #contact .contact-box .row .col-3 .hour-box p {
+        font-size: 20px;
+        color: #222;
+        font-weight: 400;
+        margin-bottom: 10px; }
         @media (max-width: 400px) {
-          #tour .contact-box .row .col-3 h6 {
-            margin-top: 30px; } }
-      #tour .contact-box .row .col-3 .hour-box {
-        display: flex;
-        justify-content: space-between; }
-        #tour .contact-box .row .col-3 .hour-box p {
-          font-size: 20px;
-          color: #222;
-          font-weight: 400;
-          margin-bottom: 10px; }
-          @media (max-width: 400px) {
-            #tour .contact-box .row .col-3 .hour-box p {
-              font-size: 16px;
-              margin-bottom: 0; } }
-        #tour .contact-box .row .col-3 .hour-box .col-1 p {
-          text-align: left;
-          margin-right: 30px; }
-        #tour .contact-box .row .col-3 .hour-box .col-2 p {
-          text-align: left; }
+          #contact .contact-box .row .col-3 .hour-box p {
+            font-size: 16px;
+            margin-bottom: 0; } }
+      #contact .contact-box .row .col-3 .hour-box .col-1 p {
+        text-align: left;
+        margin-right: 30px; }
+      #contact .contact-box .row .col-3 .hour-box .col-2 p {
+        text-align: left; }
 
 .contact-below {
   display: flex;
@@ -26336,6 +26340,9 @@ h4.modal-title {
     @media (max-width: 767px) {
       #copyrights .container {
         display: initial; } }
+
+#google-map {
+  max-height: 500px; }
 
 #slider, .swiper-container, .swiper-wrapper, .swiper-slide {
   max-height: 800px; }
@@ -26427,7 +26434,7 @@ h4.modal-title {
   padding: 60px 0;
   background: url("../images/bio.jpg");
   background-repeat: no-repeat;
-  background-position-x: -30%; }
+  background-position-x: -20%; }
   @media (max-width: 500px) {
     #meet-the-team {
       padding: 20px 0; } }
@@ -26744,8 +26751,14 @@ h4.modal-title {
 #tour {
   background: #F1A6DC;
   padding: 60px 0;
-  padding-bottom: 0;
+  padding-bottom: 250px;
   background: rgba(241, 166, 220, 0.09); }
+  @media (max-width: 991px) {
+    #tour {
+      padding-bottom: 60px; } }
+  @media (max-width: 480px) {
+    #tour {
+      padding-bottom: 30px; } }
   #tour h2 {
     color: #BC69A2;
     font-size: 48px;
@@ -26758,8 +26771,6 @@ h4.modal-title {
     line-height: 26px; }
   #tour .tour-1 {
     margin: 10px 0 30px 0; }
-  #tour img {
-    border-radius: 16px; }
   #tour .oc-item img {
     max-height: 169.250px; }
   #tour #oc-portfolio3 .owl-next, #tour #oc-portfolio3 .owl-prev {

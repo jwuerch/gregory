@@ -1,7 +1,13 @@
 #tour {
   background:#F1A6DC;
   padding:60px 0;
-  padding-bottom:0;
+  padding-bottom:250px;
+  @media (max-width:991px) {
+    padding-bottom:60px;
+  }
+  @media (max-width:480px) {
+    padding-bottom:30px;
+  }
 
   background: rgba(241, 166, 220, .09);
   h2 {
@@ -20,7 +26,6 @@
     margin:10px 0 30px 0;
   }
   img {
-    border-radius:16px;
   }
   .oc-item img {
     max-height:169.250px;
